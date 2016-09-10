@@ -2,9 +2,11 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# OPTIONS_GHC -funbox-strict-fields #-}
 
-module Psi (
+module Psi.Control (
     module X
   ) where
 
-import           Psi.Control as X
-import           Psi.Data as X
+import           Control.Applicative as X
+import           Control.Monad as X
+
+import           Data.Function as X
