@@ -18,6 +18,7 @@ library
 
   build-depends:       base >= 3 && < 5
                      , bytestring >= 0.10
+                     , deepseq >= 1.4
                      , semigroups >= 0.16
                      , text >= 1.2
 

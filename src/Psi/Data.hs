@@ -6,6 +6,10 @@ module Psi.Data (
     module X
   ) where
 
+import           Control.DeepSeq as X (NFData(..))
+import           Control.DeepSeq as X (($!!))
+import           Control.DeepSeq as X (deepseq, force)
+
 import           Data.Bifunctor as X (Bifunctor(..))
 import           Data.Bool as X
 import           Data.ByteString as X (ByteString)
