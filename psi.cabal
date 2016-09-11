@@ -1,14 +1,23 @@
 name:                psi
 version:             0.1.0.0
-synopsis:            psi
+synopsis:            Yet another custom Prelude.
+description:         `psi`/`ψ` is just another custom Haskell
+                     prelude. It is inspired by Ambiata's p and has
+                     the same focus on promoting use of safe
+                     constructs and avoidance of partial functions.
 license:             MIT
 license-file:        LICENSE
 author:              Sharif Olorin
 maintainer:          sio@tesser.org
 copyright:           2016 Sharif Olorin
+category:            Prelude
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
+
+source-repository      head
+  type:                git
+  location:            git://github.com/olorin/psi.git
 
 library
   hs-source-dirs:      src
