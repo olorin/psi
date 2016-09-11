@@ -16,6 +16,7 @@ library
   exposed-modules:     Psi
                        Psi.Control
                        Psi.Data
+                       Psi.Show
 
   build-depends:       base >= 3 && < 5
                      , bytestring >= 0.10
