@@ -8,3 +8,4 @@ module Psi (
 
 import           Psi.Control as X
 import           Psi.Data as X
+import           Psi.Show as X
