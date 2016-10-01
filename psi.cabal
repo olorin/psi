@@ -1,5 +1,5 @@
 name:                psi
-version:             0.1.1.0
+version:             0.1.2.0
 synopsis:            Yet another custom Prelude.
 description:         `psi`/`ψ` is just another custom Haskell
                      prelude. It is inspired by Ambiata's p and has
@@ -23,6 +23,7 @@ library
   hs-source-dirs:      src
 
   exposed-modules:     Psi
+                       Psi.Bool
                        Psi.Control
                        Psi.Data
                        Psi.Show
