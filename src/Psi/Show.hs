@@ -8,7 +8,8 @@ module Psi.Show (
 
 import           Data.Text (Text, pack)
 
-import           Text.Show as X (Show)
+import           Text.Show as X
+import           Text.Read as X (Read, reads, readMaybe, readEither)
 
 renderIntegral :: (Show a, Integral a) => a -> Text
 renderIntegral = pack . show
